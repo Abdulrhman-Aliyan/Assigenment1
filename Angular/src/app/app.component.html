@@ -1,0 +1,14 @@
+<table class="table">
+  <thead class="thead-dark">
+    <tr style="background-color: r gb(43, 43, 43); color: rgb(0,0,0)">
+      <th scope="col">id</th>
+      <th scope="col">Game</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let game of games">
+      <th>{{game.id}} </th>
+      <td>{{game.game}}</td>
+    </tr>
+  </tbody>
+</table>
